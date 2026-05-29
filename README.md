@@ -87,14 +87,15 @@ By architecting a robust multi-layered diagnostic system, this project isolates 
 * **Operational Summary:** The data highlights a dual-threat: localized quality defects in low-volume colorways like Lavender, contrasted against a massive financial baseline leak in high-volume colors like Blue, which intensifies during peak seasonal months (8 and 10).
 ---
 
-### 6. Geographical Performance Anomalies
-![Geographical Anomalies](https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/main/Images/image_b88f9.png)
+### 6- Returns Geographical & Timeline Anomaly Analysis
 
-* **Isolated Problems:**
-  * On a macro scale, *England* drives absolute loss volume at **$49K**, while *Scotland* triggers the highest regional baseline risk at a **10% return rate** ($9.3K lost).
-* **The Catastrophic Outlier:**
-  * Inside Scotland, the region of **Dunbartonshire** presents a devastating operational failure, yielding an unprecedented, catastrophic **47% return rate** across 44 units.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/6e168753743e82ef0e43527297cb6821a8ca5e77/Images/Regionandcountry.jpeg" alt="Returns Geographical Analysis Dashboard" width="800"/>
+</p>
 
+* **Geographical Outliers:** Analysis isolates **`Dunbartonshire`** (inside Scotland) as the absolute highest-risk region with a catastrophic **47% return rate** (44 units), while on a country scale, **`Scotland`** leads in baseline risk at **10%** compared to England's 6%.
+* **The XS/White Hoodie Anomaly:** Deep-diving into Dunbartonshire's 44 returns reveals a 100% correlation with size **`XS`** and color **`White`** strictly within the **`Hoodies & Sweatshirts`** category.
+* **Timeline Operational Proof:** Switching the historical filter to **`2020`** completely empties the visual data (0 returns), proving this defect is a newly introduced **2021 operational failure** that severely breaks new customer retention across Scotland.
 ---
 
 ### 7. Deep Investigation: The Dunbartonshire Supply Chain Breach
