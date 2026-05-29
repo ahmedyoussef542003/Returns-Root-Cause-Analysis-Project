@@ -26,7 +26,7 @@ By architecting a robust multi-layered diagnostic system, this project isolates 
 ## 💻 Dashboard Architecture & Deep Root Cause Diagnostics
 
 ### 1. Returns Behavioral Analysis (Category & Size Perspectives)
-![Returns Behavioral Analysis](https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/main/Images/image_b88eb9.png)
+![Returns Behavioral Analysis](https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/main/Images/Images/DeepRootCause(Category)1.jpeg.png)
 
 * **Isolated Problems:**
   * **The Volume Bleeder:** *Hoodies & Sweatshirts* represents the single heaviest absolute financial drain, leaking **$17.5K** across **932 returned units** due to higher retail price points.
