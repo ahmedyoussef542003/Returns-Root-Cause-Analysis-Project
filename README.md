@@ -39,7 +39,10 @@ By architecting a robust multi-layered diagnostic system, this project isolates 
 ---
 
 ### 2. Product Category Probability Analysis (The "Why" Drivers)
-![Product Category Deep Root Causes](https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/main/Images/image_b88e7a.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/cc7e9c716871640e04a80dcb24467ebbfb9a9eaf/Images/DeepRootCause(Category)1.jpeg" alt="Deep Root Cause Category Dashboard" width="800"/>
+</p>
+
 
 * **Isolated Problems:**
   * Structural classification analysis proves that certain product lines act as standalone return catalysts regardless of consumer demographics.
@@ -48,9 +51,6 @@ By architecting a robust multi-layered diagnostic system, this project isolates 
   * **Dimensional Core Drivers:** Deeper multi-dimensional granular filtering reveals that the core operational reason behind the massive **Bras & Tops** return rate is highly concentrated in extreme sizes: Specifically **Size XS (accounting for 18 returned units)** and **Size XL (accounting for 15 returned units)**. This underscores a critical fit/pattern scaling failure at both structural ends of this specific product line.
   * **The Critical Defect Segment:** By cross-referencing multiple attributes, the data isolates a highly dangerous customer segment where the return rate explodes to **14.7%** (more than double the company baseline). This segment is entirely concentrated in **Bras & Tops when the product color is Black** (accounting for 92 units).
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/cc7e9c716871640e04a80dcb24467ebbfb9a9eaf/Images/DeepRootCause(Category)1.jpeg" alt="Deep Root Cause Category Dashboard" width="800"/>
-</p>
 
 
 ---
