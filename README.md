@@ -65,14 +65,15 @@ By architecting a robust multi-layered diagnostic system, this project isolates 
 * **Operational Summary:** While `Bras & Tops` suffers from localized color defects like Black and Blue, `Hoodies & Sweatshirts` faces a massive volume defect specifically tied to Green fabric.
 ---
 
-### 4. Colorways Quality Control Analysis
-![Color Defects](https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/main/Images/image_b88e3c.png)
+### 📅 Product Category & Quarterly Deep Root Cause Analysis
 
-* **Isolated Problems:**
-  * **The Financial Drain:** *Blue* garments serve as the highest volume financial bleed, costing **$11K** across **690 units** due to heavy baseline sales transactions.
-* **Deep Root Cause:**
-  * **Quality Control Failures:** *Lavender* and *White* colorways register the company's highest baseline return rates at **13%** and **10%** respectively. This narrow concentration indicates severe dye-processing errors or textile shrinkage variations during chemical processing.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/83e8c2f54b951150e90d40ed89f37572deb96874/Images/DeepRootCause(Categpry)3.jpeg" alt="Deep Root Cause Quarterly Dashboard" width="800"/>
+</p>
 
+* **Bras & Tops:** Analysis indicates a severe year-end escalation in **`Quarter 4`**, where the return rate peaks catastrophically at **19%**, driving a direct profit loss of **$2,534**.
+* **Hoodies & Sweatshirts:** Conversely, the primary financial shock occurs during **`Quarter 3`**, registering an absolute peak loss of **$7,177 in profit**, despite maintaining a stable 8% return rate.
+* **Operational Summary:** The data clearly contrasts a high-percentage operational failure for `Bras & Tops` in Q4 against a massive volume-driven financial drain for `Hoodies & Sweatshirts` in Q3.
 ---
 
 ### 5. Seasonal Shocks & Temporal Trends
