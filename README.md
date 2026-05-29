@@ -49,20 +49,20 @@ By architecting a robust multi-layered diagnostic system, this project isolates 
 * **Deep Root Cause Determined:**
   * **Category Risk Multipliers:** Advanced statistical modeling proves that the **Bras & Tops** line is the primary driver of returns, increasing the likelihood of a return by **1.68x**, followed closely by **Tank Tops** at **1.28x** compared to other categories. 
   * **Dimensional Core Drivers:** Deeper multi-dimensional granular filtering reveals that the core operational reason behind the massive **Bras & Tops** return rate is highly concentrated in extreme sizes: Specifically **Size XS (accounting for 18 returned units)** and **Size XL (accounting for 15 returned units)**. This underscores a critical fit/pattern scaling failure at both structural ends of this specific product line.
-  * **The Critical Defect Segment:** By cross-referencing multiple attributes, the data isolates a highly dangerous customer segment where the return rate explodes to **14.7%** (more than double the company baseline). This segment is entirely concentrated in **Bras & Tops when the product color is Black** (accounting for 92 units).
+  * **The Root Cause Product: This critical segment is entirely defined by orders where the product category is Bras & Tops and the size is XS, single-handedly accounting for 92 returned units.
 
 
 
 ---
 
-### 3. Dimensional Risk Probability Mapping
-![Sizing Risk Factor](https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/main/Images/image_b88e5c.png)
+### 🧥 3- Product Category & Color Deep Root Cause Analysis
 
-* **Isolated Problems:**
-  * High-volume return indicators often mask underlying pattern engineering flaws.
-* **Deep Root Cause Determined:**
-  * **The Sizing Risk Factor:** Deep dimensional review confirms that **Size XL** acts as a fundamental risk driver, multiplying return probability by **1.16x**. This mathematically isolates a pattern-making flaw or scaling distortion in the production line for XL garments.
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/03e75eaa5b6a0242e2956a7cc8b35275289190bf/Images/Deeprootcause(Category)2.jpeg" alt="Deep Root Cause Category Dashboard" width="800"/>
+</p>
+* **Bras & Tops:** Analysis reveals that **`Black`** is the single highest-risk colorway, triggering a critical **24% return rate** ($803 lost), followed by **`Blue`** at **16%** ($863 lost).
+* **Hoodies & Sweatshirts:** In stark contrast, **`Green`** garments represent the absolute heaviest financial drain across this category, leaking a massive **$3,164 in profit** due to high return volume.
+* **Operational Summary:** While `Bras & Tops` suffers from localized color defects like Black and Blue, `Hoodies & Sweatshirts` faces a massive volume defect specifically tied to Green fabric.
 ---
 
 ### 4. Colorways Quality Control Analysis
