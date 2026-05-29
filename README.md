@@ -14,25 +14,7 @@ By architecting a robust multi-layered diagnostic system, this project isolates 
 * **Comparative Baseline:** Executive KPIs and Cards at the top of the dashboards measure 2021 performance, while conditional coloring and trend indicators evaluate performance deviations against **2020** benchmarks.
 * **Granular Investigation:** Advanced cross-filtering and historical timeline comparisons (dating back to 2020) were leveraged to validate new customer retention metrics and track post-return customer churn patterns.
 ![Uploading image.png…]()
-### 📑 Pipeline Stages Breakdown
 
-#### 1. Data Ingestion & Extraction (المرحلة الأولى: جلب البيانات)
-* **Sources:** Extracting historical e-commerce and retail transaction logs encompassing multi-layered tables (Orders, Returns, Customer Profiles, and Product Metadata).
-* **Temporal Alignment:** Filtering and partitioning data structures specifically to isolate the fiscal year **2021** while retaining the **2020** baseline for comparative trend analysis.
-
-#### 2. ETL & Data Transformation via Power Query (المرحلة الثانية: التنظيف والمعالجة)
-* **Data Cleansing:** Handling missing values, erasing anomalies, and converting operational datatypes (e.g., standardizing text inputs for product colorways and size extreme boundaries).
-* **Feature Engineering:** Creating logical keys and attributes to sync seasonal indicators (extracting Months, Quarters, and peak operational windows like Month 8 and Month 10).
-
-#### 3. Data Modeling & Schema Design (المرحلة الثالثة: بناء العلاقات وهيكلة البيانات)
-* **Star Schema Architecture:** Deployed an optimized **Star Schema** to maximize query performance and avoid ambiguity in multi-dimensional filtering.
-  * **Fact Tables:** `Fact_Orders`, `Fact_Returns` (containing transaction volume, lost profits, and logistics costs).
-  * **Dimension Tables:** `Dim_Products`, `Dim_Customers`, `Dim_Geography`, and a central `Dim_Calendar` table.
-* **Relationship Management:** Deployed distinct active and inactive relationships (utilizing `USERELATIONSHIP` where necessary) to track multi-date fields seamlessly without causing ambiguity loops.
-
-#### 4. Semantic Layer & DAX Engine (المرحلة الرابعة: الحسابات المتقدمة والعرض)
-* **Context Manipulation:** Leveraging the Power BI **DAX Engine** via advanced context transitions. The core calculations utilize `CALCULATE` nested with `FILTER`, `ALL`, and `VALUES` to dynamically overwrite filter contexts for risk mapping (e.g., isolating the 14.7% risk segment for Black Bras & Tops).
-* **Data Storytelling Layer:** Injecting the calculated semantic measures directly into high-fidelity, high-contrast dashboards designed with a Burgundy danger-zone aesthetic to optimize executive decision-making.
 ---
 
 ## 📈 Strategic Executive Summary (2021 KPIs)
