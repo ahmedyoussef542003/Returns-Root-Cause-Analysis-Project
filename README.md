@@ -65,7 +65,7 @@ By architecting a robust multi-layered diagnostic system, this project isolates 
 * **Operational Summary:** While `Bras & Tops` suffers from localized color defects like Black and Blue, `Hoodies & Sweatshirts` faces a massive volume defect specifically tied to Green fabric.
 ---
 
-### 📅 Product Category & Quarterly Deep Root Cause Analysis
+### 4- Product Category & Quarterly Deep Root Cause Analysis
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/83e8c2f54b951150e90d40ed89f37572deb96874/Images/DeepRootCause(Categpry)3.jpeg" alt="Deep Root Cause Quarterly Dashboard" width="800"/>
@@ -76,14 +76,15 @@ By architecting a robust multi-layered diagnostic system, this project isolates 
 * **Operational Summary:** The data clearly contrasts a high-percentage operational failure for `Bras & Tops` in Q4 against a massive volume-driven financial drain for `Hoodies & Sweatshirts` in Q3.
 ---
 
-### 5. Seasonal Shocks & Temporal Trends
-![Seasonal & Timing Spikes](https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/main/Images/image_b88718.png)
+###  5- Returns Behavioral Analysis (Color & Time)
 
-* **Isolated Problems & Trend Anomalies:**
-  * Returns exhibit severe seasonal shocks rather than a steady linear trend, peaking critically in **August (Month 8)** and **October (Month 10)** with an alarming **10% return rate** each.
-* **Business Impact:**
-  * These two peak months combined account for a massive operational collapse, destroying **$19.3K** in total net profit within a 60-day window.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/70384b3e087b45f1faf331425a8470fbe009697e/Images/ReturnBehavoralAnalysiscolorandtime2.jpeg" alt="Returns Behavioral Analysis Dashboard" width="800"/>
+</p>
 
+* **Color Defects:** Analysis reveals that **`Lavender`** registers the company's highest return rate at **13%**, while **`Blue`** represents the heaviest financial drain, leaking **$11,072 in profit** across 690 returned units due to high transaction volume.
+* **Seasonal Spikes:** Returns exhibit severe seasonal shocks, peaking critically in **August (Month 8)** and **October (Month 10)** with an alarming **10% return rate** each, combining for a massive loss of nearly **$19.3K in total profit**.
+* **Operational Summary:** The data highlights a dual-threat: localized quality defects in low-volume colorways like Lavender, contrasted against a massive financial baseline leak in high-volume colors like Blue, which intensifies during peak seasonal months (8 and 10).
 ---
 
 ### 6. Geographical Performance Anomalies
