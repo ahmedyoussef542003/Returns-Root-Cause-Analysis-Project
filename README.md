@@ -98,32 +98,21 @@ By architecting a robust multi-layered diagnostic system, this project isolates 
 * **Timeline Operational Proof:** Switching the historical filter to **`2020`** completely empties the visual data (0 returns), proving this defect is a newly introduced **2021 operational failure** that severely breaks new customer retention across Scotland.
 ---
 
-### 7. Deep Investigation: The Dunbartonshire Supply Chain Breach
-![Deep Root Cause Scotland](https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/main/Images/image_b886db.png)
+### 🗺️ Geographical Deep Root Cause Analysis (2020 vs. 2021)
 
-* **Deep Root Cause Isolated:**
-  * **The XS/White Batch Anomaly:** Filtering the data specifically down to the 47% outlier in Dunbartonshire isolates a devastating **100% return rate correlation** exclusively tied to **Size XS** in the **White** colorway within the **Hoodies & Sweatshirts** line (accounting for all 44 returned units). 
-  * **The Historical Proof (Temporal Cross-Filtering):** Switching the timeline filter backward to **2020 completely empties the visual database for this defect**. This proves conclusively that this operational bug did not exist prior to 2021 and is strictly linked to a new 2021 vendor batch or logistics shipment failure.
+#### 📊 2021 High-Risk Regions Breakdown
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/406fb882dde76f56e98c07e6d400ba115ac33efa/Images/DeepRootCause(Region).jpeg" alt="Deep Root Cause Region 2021 Dashboard" width="800"/>
+</p>
 
----
+#### 📉 2020 Baseline Comparison (Zero Returns Anomaly)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/7aaa386c485ff7385996f8c83e162171e4f5c910/Images/DeepRootCause(Region2020).jpeg" alt="Deep Root Cause Region 2020 Dashboard" width="800"/>
+</p>
 
-### 8. New Customer Retention & Post-Return Churn Audit
-![Customer Retention Failure](https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/main/Images/image_b886be.png)
-
-* **Strategic Question Answered:** *Is the company failing to capitalize on newly acquired customers due to physical defects?* **Yes.**
-* **The Retention Breakdown:**
-  * Cross-sector timeline modeling shows that first-time buyers who were unfortunately fulfilled using the defective 2021 *XS/White Hoodies* batch were immediately alienated. 
-  * Instead of converting into repeat buyers, the post-return behavior tracking confirms a **complete post-return churn loop**. Affected customers permanently severed relations with the brand, causing massive **Scotland Loyalty Burn** and destroying Customer Lifetime Value (CLV).
-
----
-
-### 9. Interactive Segment Risk Profiles
-![Segment Risk Profiles](https://raw.githubusercontent.com/ahmedyoussef542003/Returns-Root-Cause-Analysis-Project/main/Images/image_b8867c.png)
-
-* **Operational Utility:**
-  * This matrix view allows cross-functional squads to select specific parameters and instantly extract automated risk profiles, mapping out how combinations of product lines, colors, and regions compound overall financial risk.
-
----
+* **The Regional Defects (2021):** Deep-diving into our highest-risk regions isolates two critical product flaws: a 100% concentration in size **`XS`** and color **`White`** (44 units) within one region, and size **`XL`** and color **`Orange`** (31 units) within another, both strictly hitting the **`Hoodies & Sweatshirts`** category.
+* **Timeline Operational Proof:** Cross-examining historical data from **`2020`** shows absolutely zero returns (0 units) across these same product segments, proving that these severe dimension and fabric defects are new operational failures introduced entirely in 2021.
+* **Business Retention Impact:** Because these localized quality spikes appeared suddenly in 2021, they have severely damaged the brand's regional reputation, resulting in a critical failure to acquire and retain new customers who are returning their first orders.
 
 ## 🛠️ Data Engineering & Modeling Stack
 * **BI Platform:** Microsoft Power BI Desktop
