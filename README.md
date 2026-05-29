@@ -114,19 +114,18 @@ By architecting a robust multi-layered diagnostic system, this project isolates 
 * **Timeline Operational Proof:** Cross-examining historical data from **`2020`** shows absolutely zero returns (0 units) across these same product segments, proving that these severe dimension and fabric defects are new operational failures introduced entirely in 2021.
 * **Business Retention Impact:** Because these localized quality spikes appeared suddenly in 2021, they have severely damaged the brand's regional reputation, resulting in a critical failure to acquire and retain new customers who are returning their first orders.
 
-## 🛠️ Data Engineering & Modeling Stack
+### 🛠️ Data Engineering & Modeling Stack
+
 * **BI Platform:** Microsoft Power BI Desktop
 * **Advanced Analytics Engine:** Data Analysis Expressions (Advanced DAX) leveraging modified Filter Contexts via `CALCULATE`, `FILTER`, `ALL`, and `USERELATIONSHIP`.
 * **Data Modeling:** Optimized Star Schema with separated Dimension Tables (Products, Geography, Customers, Calendar) and Fact Tables (Orders, Returns).
 * **UI/UX Strategy:** High-contrast executive theme mapping using a distinct Burgundy/Crimson color palette to signify financial danger zones against neutral gray stable baselines (Emotional Design Implementation).
 
----
+### 🎯 Actionable Executive Recommendations
 
-## 🎯 Actionable Executive Recommendations
-1. **Supply Chain Intervention:** Immediately halt and recall the *Hoodies & Sweatshirts (Size XS, White)* batch from the Dunbartonshire supplier pipeline to eliminate the 47% localized outlier.
-2. **Product Re-engineering:** Audit and re-calibrate the cutting/pattern specifications for *Size XL* garments, and inspect the dye quality of *Black Bras & Tops* to mitigate the **1.68x** return multiplier.
-3. **Targeted Customer Recovery:** Launch an automated CRM retention campaign offering specialized credits or apologies targeted at first-time 2021 buyers in Scotland who suffered from the batch defect, in order to repair brand equity.
-
+1. **Supply Chain Intervention:** Immediately halt and recall high-risk 2021 product batches from the local supplier pipelines to eliminate catastrophic regional outliers—specifically **Hoodies & Sweatshirts (Size XS, White)** in Dunbartonshire, and **Hoodies & Sweatshirts (Size XL, Orange)** in the secondary affected region.
+2. **Product Re-engineering:** Audit and re-calibrate cutting and pattern specifications for extreme sizes (**XS and XL**), and inspect the fabric/dye quality of **Black Bras & Tops** to mitigate the 1.68x return multiplier and stop the 92-unit segment drain.
+3. **Targeted Customer Recovery:** Launch an automated CRM retention campaign offering specialized credits or targeted apologies to first-time 2021 buyers in Scotland who experienced these immediate batch defects, directly repairing brand equity and reversing the new customer acquisition failure.
 ---
 ### 👨‍💻 Developed by:
 **Ahmed Youssef** *Data Analyst & AI Specialist* [LinkedIn Profile](https://linkedin.com/in/ahmedyoussef13) | [GitHub Repository](https://github.com/ahmedyoussef542003)
